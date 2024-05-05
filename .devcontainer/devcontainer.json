@@ -1,0 +1,13 @@
+{
+    "name": "{project_3}",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.cpptools"
+        ]
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+FROM gcc:latest
+
+# Install any additional dependencies if needed
+# RUN apt-get update && apt-get install -y <package-name>
+
+# Set the working directory in the container
+WORKDIR /workspaces/project_3
+
+# Copy the current directory contents into the container at /workspaces/your-repo-name
+COPY . /workspaces/project_3
+
+# Compile the code
+RUN g++ -o main main.cpp FlightStats.cpp
+
+# Run the program when the container starts
+CMD ["./main"]
