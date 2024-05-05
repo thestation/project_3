@@ -15,13 +15,13 @@ To install csv-parser, add the library to your project. You can clone it directl
 git clone https://github.com/vincentlaucsb/csv-parser.git
 
 ## To Run Project
-cd src
-./FlightStatsApp
+- cd src
+- ./FlightStatsApp
 
 ## Example Run
 
-Enter the airport code: LAX
-Enter the year/month (e.g., 2012/07): 2010/05
-Likelihood of delay at airport LAX in 2010/05 is 16.6253%
-Unordered map lookup time: 4 microseconds
-Ordered map lookup time: 2 microseconds
+- Enter the airport code: LAX
+- Enter the year/month (e.g., 2012/07): 2010/05
+- Likelihood of delay at airport LAX in 2010/05 is 16.6253%
+- Unordered map lookup time: 4 microseconds
+- Ordered map lookup time: 2 microseconds
